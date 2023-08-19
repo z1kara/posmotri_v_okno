@@ -66,3 +66,29 @@ ol {
   gap: 26px;
   justify-content: end;
 }
+
+.result__video {
+  width: 100%;
+  height: 100%;
+}
+
+.result__video-container {
+  margin-bottom: 16px;
+  height: 386px;
+  width: 711px;
+}
+
+
+.content__video-card {
+  display: grid;
+  grid-template-columns: auto 194px;
+}
+
+.content__list-item:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.content__video-card-thumbnail {
+  width: 194px;
+  height: 103px;
+}

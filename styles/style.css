@@ -172,6 +172,10 @@ ol {
  justify-content: center;
 }
 
+.search-form__label:hover .search-form__label-text {
+  text-decoration: underline;
+}
+
 .button {
   cursor: pointer;
   color: #FFF;
@@ -209,13 +213,15 @@ ol {
 
 .search-form__label:has(:focus-visible) {
   border: 1px solid #FFF;
+  padding: 1px;
 }
 
 .search-form__textfield:focus {
   outline: none;
 }
 
-/* .search-form__textfield:has(:focus-visible) {
+/* 
+.search-form__textfield:has(:focus-visible) {
   border: none;
 } */
 
@@ -237,8 +243,6 @@ ol {
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::before {
   content: "";
   position: absolute;
-
- 
   width: 17px;
   height: 17px;
   background-color: #fff;

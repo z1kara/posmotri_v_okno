@@ -52,7 +52,6 @@ ol {
   display: flex;
   gap: 30px;
   align-items: flex-end;
-  position: absolute;
 }
 
 
@@ -252,7 +251,7 @@ ol {
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::before {
   content: "";
-  position: absolute;
+
   width: 17px;
   height: 17px;
   background-color: #fff;

@@ -22,6 +22,9 @@ fieldset {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h1,
@@ -44,13 +47,10 @@ ol {
 }
 
 .content {
-  margin: 133px 30px;
   width: 1140px;
   height: 534px;
-  display: grid;
-  grid-template-columns: 711px 399px;
+  display: flex;
   gap: 30px;
-  align-items: flex-end;
 
 }
 
@@ -188,6 +188,10 @@ ol {
   line-height: normal;
   background: transparent;
   border: 1px solid #FFF;
+}
+
+.button:active {
+  background: #545050;
 }
 
 .search-form__submit-button {

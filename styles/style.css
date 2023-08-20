@@ -152,8 +152,7 @@ ol {
 .content__card-link {
   text-decoration: none;
   color: #FFF;
-  display: flex;
-  justify-content: space-between;
+  
 }
 
 .content__card-link_current {

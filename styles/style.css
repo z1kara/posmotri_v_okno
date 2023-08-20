@@ -47,9 +47,11 @@ ol {
   margin: 133px 30px;
   width: 1140px;
   height: 534px;
-  display: flex;
+  display: grid;
+  grid-template-columns: 711px 399px;
   gap: 30px;
   align-items: flex-end;
+
 }
 
 .search-form {
@@ -80,14 +82,14 @@ ol {
 .result__video {
   width: 100%;
   height: 100%;
+  position: relative;
 }
 
 .result__video-container {
   margin-bottom: 16px;
-  height: 386px;
-  width: 711px;
   position: relative;
   cursor: pointer;
+  
 }
 
 

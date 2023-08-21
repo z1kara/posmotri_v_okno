@@ -46,7 +46,6 @@ ol {
   align-items: flex-end;
   gap: 30px;
   width: 1140px;
-  height: 534px;
 }
 
 .search-form {
@@ -62,7 +61,7 @@ ol {
 .content__list {
   position: relative;
   height: 298px;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 .content__details {

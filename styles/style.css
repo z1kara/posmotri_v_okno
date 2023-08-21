@@ -108,11 +108,6 @@ ol {
   text-decoration: underline;
 }
 
-.content__card-link:focus-visible {
-  border: 1px solid #fff;
-  outline: none;
-}
-
 .content__video-card-thumbnail {
   width: 194px;
   height: 103px;
@@ -150,6 +145,16 @@ ol {
 
 .content__card-link_current {
   background-color: #545050;
+}
+
+.content__card-link:focus-visible {
+  border: 1px solid #fff;
+  outline: none;
+}
+
+.content__card-link:focus {
+  border: none;
+  outline: 1px solid #fff;
 }
 
 .content__video-card-title {
@@ -225,6 +230,11 @@ ol {
 }
 
 .button:focus {
+  outline: 1px solid #fff;
+  outline-offset: 2px;
+}
+
+.button:focus-visible {
   outline: 1px solid #fff;
 }
 

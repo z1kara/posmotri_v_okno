@@ -32,8 +32,8 @@ li,
 blockquote,
 fieldset {
   margin: 0;
-  padding: 0;
   border: 0;
+  padding: 0;
 }
 
 ul,
@@ -288,7 +288,7 @@ ol {
 }
 
 .search-form__pseudo-checkbox {
-  display: inline-block;
+  display: flex;
   width: 19px;
   height: 19px;
   border: 1px solid #fff;

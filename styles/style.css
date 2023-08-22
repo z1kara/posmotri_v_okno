@@ -230,12 +230,12 @@ ol {
 }
 
 .button:focus {
-  outline: 1px solid #fff;
-  outline-offset: 2px;
+  outline: none;
 }
 
 .button:focus-visible {
   outline: 1px solid #fff;
+  outline-offset: 2px;
 }
 
 .search-form__submit-button {
